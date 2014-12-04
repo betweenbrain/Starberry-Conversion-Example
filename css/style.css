@@ -96,6 +96,10 @@ body {
   color: #555555;
   font-family: 'AvenirLTStd';
 }
+.search-line + .body {
+  position: relative;
+  top: 190px;
+}
 a,
 a:hover,
 a:focus {
@@ -297,7 +301,7 @@ textarea.form-control {
   width: 61px;
   text-align: center;
   font-weight: bold;
-  color: #fff;
+  color: #ffffff;
   font-size: 14px;
   line-height: 42px;
   z-index: 99;
@@ -760,6 +764,9 @@ textarea.form-control {
 .featured-line.search-line {
   background: #f05323;
   padding: 0;
+  position: absolute;
+  width: 100%;
+  z-index: 2;
 }
 .featured-line.search-line .search {
   max-width: none;
@@ -1959,7 +1966,7 @@ textarea.form-control {
 }
 @media screen and (max-width : 1000px) {
   .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
-    color: #fff;
+    color: #ffffff;
   }
   .search-form,
   .pagination {
@@ -2220,11 +2227,11 @@ textarea.form-control {
   }
   .interest-line {
     background: #f5f4f4;
-    border-top: 1px solid #fff;
+    border-top: 1px solid #ffffff;
     margin: 0 -20px;
     line-height: 18px;
     padding: 9px 20px 6px;
-    border-bottom: 2px solid #fff;
+    border-bottom: 2px solid #ffffff;
     overflow: hidden;
   }
   .interest-line p {
@@ -2334,7 +2341,7 @@ textarea.form-control {
     font-size: 17.92px;
     font-weight: normal;
     text-align: center;
-    color: #fff;
+    color: #ffffff;
     margin: 0;
     padding: 0 0 15px;
   }
