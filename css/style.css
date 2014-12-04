@@ -1941,7 +1941,7 @@ textarea.form-control {
 .responsive-only {
   display: none;
 }
-@media screen and (min-width: 999px) and (max-width: 1200px) {
+@media screen and (min-width : 999px) and (max-width : 1200px) {
   .properties .bx-prev,
   .properties .bx-next {
     margin: 0 30px;
@@ -1957,7 +1957,7 @@ textarea.form-control {
     overflow: hidden;
   }
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width : 1000px) {
   .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
     color: #fff;
   }
@@ -2724,7 +2724,7 @@ textarea.form-control {
     width: 100% !important;
   }
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width : 767px) {
   .sales-search.grid-style article {
     width: 100%;
     margin: 0 0 15px;
