@@ -192,4 +192,47 @@ textarea.form-control {
   }
 }
 
-
+.ribbon {
+  position    : absolute;
+  left        : 20px;
+  top         : -4px;
+  width       : 61px;
+  text-align  : center;
+  font-weight : bold;
+  color       : #fff;
+  font-size   : @p;
+  line-height : 42px;
+  z-index     : 99;
+  &:before {
+	.flag-down(@yellow, 30px);
+	opacity     : .9;
+	padding-top : 11px;
+  }
+  &.sold {
+	&:before {
+	  .flag-down(@red, 30px);
+	  opacity     : .9;
+	  padding-top : 11px;
+	}
+  }
+  &.under {
+	padding     : 10px;
+	font-size   : 12px;
+	line-height : 14px;
+	&:before {
+	  .flag-down(@orange, 30px);
+	  opacity     : .9;
+	  padding-top : 11px;
+	}
+  }
+  &.under2 {
+	padding     : 10px;
+	font-size   : 12px;
+	line-height : 14px;
+	&:before {
+	  .flag-down(@orange, 30px);
+	  opacity     : .9;
+	  padding-top : 11px;
+	}
+  }
+}
