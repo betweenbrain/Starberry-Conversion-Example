@@ -1,106 +1,106 @@
 
 .contacts {
-  float: right;
-  font-size: @p;
-  padding: 8px 0;
-  color: @orange;
+  float     : right;
+  font-size : @p;
+  padding   : 8px 0;
+  color     : @orange;
   p {
-    float: left;
-    padding: 0 2px 0 22px;
-    .phone {
-      font-weight: bold;
-      line-height: 14px;
-      font-size: @pbig2;
-    }
+	float   : left;
+	padding : 0 2px 0 22px;
+	.phone {
+	  font-weight : bold;
+	  line-height : 14px;
+	  font-size   : @pbig2;
+	}
   }
   ul,
   li {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    float: left;
+	list-style : none;
+	padding    : 0;
+	margin     : 0;
+	float      : left;
   }
   li a {
-    margin-left: 5px;
-    float: left;
-    height: 24px;
-    width: 24px;
-    opacity: .6;
-    background: url(../images/ico_social.png) no-repeat;
-    &:hover {
-      opacity: 1;
-    }
-    &.ico-fb {
-      background-position: 0 0;
-    }
-    &.ico-tw {
-      background-position: -24px 0;
-    }
-    &.ico-gp {
-      background-position: -48px 0;
-    }
+	margin-left : 5px;
+	float       : left;
+	height      : 24px;
+	width       : 24px;
+	opacity     : .6;
+	background  : url(../images/ico_social.png) no-repeat;
+	&:hover {
+	  opacity : 1;
+	}
+	&.ico-fb {
+	  background-position : 0 0;
+	}
+	&.ico-tw {
+	  background-position : -24px 0;
+	}
+	&.ico-gp {
+	  background-position : -48px 0;
+	}
   }
 }
 
 .navbar-inverse {
-  height: 130px;
-  border: 0;
-  box-shadow: none;
+  height     : 130px;
+  border     : 0;
+  box-shadow : none;
   .purplegradient;
   .navbar-brand {
-    float: left;
-    background: url(../images/logo.png) no-repeat;
-    height: 45px;
-    text-indent: -999em;
-    margin: 43px 0 0 0 !important;
-    width: 258px;
+	float       : left;
+	background  : url(../images/logo.png) no-repeat;
+	height      : 45px;
+	text-indent : -999em;
+	margin      : 43px 0 0 0 !important;
+	width       : 258px;
   }
   .navbar-collapse {
-    float: right;
-    margin: 28px -15px 0 0;
+	float  : right;
+	margin : 28px -15px 0 0;
   }
   .dropdown-menu {
-    width: 160px;
-    background: @purple;
-    border: 0;
-    box-shadow: none;
-    border-radius: 0;
-    padding: 7px 0 13px;
-    li {
-      font-size: 12px;
-      margin-bottom: -6px;
-      line-height: 20px;
-      a {
-        display: block;
-        color: @white;
-        padding-top: 7px;
-        padding-bottom: 7px;
-        line-height: 20px;
-        white-space: normal;
-        &:hover {
-         color: @orange;
-         background: none
-        }
-      }
-    }
+	width         : 160px;
+	background    : @purple;
+	border        : 0;
+	box-shadow    : none;
+	border-radius : 0;
+	padding       : 7px 0 13px;
+	li {
+	  font-size     : 12px;
+	  margin-bottom : -6px;
+	  line-height   : 20px;
+	  a {
+		display        : block;
+		color          : @white;
+		padding-top    : 7px;
+		padding-bottom : 7px;
+		line-height    : 20px;
+		white-space    : normal;
+		&:hover {
+		  color      : @orange;
+		  background : none
+		}
+	  }
+	}
   }
-  .navbar-nav>li>a {
-    font-size: @p;
-    text-shadow: none;
-    color: @white;
-    line-height: 50px;
-    text-transform: uppercase;
-    padding: 0 15px;
-    &:hover {
-      background: @purple;
-      color: @orange;
-    }
+  .navbar-nav > li > a {
+	font-size      : @p;
+	text-shadow    : none;
+	color          : @white;
+	line-height    : 50px;
+	text-transform : uppercase;
+	padding        : 0 15px;
+	&:hover {
+	  background : @purple;
+	  color      : @orange;
+	}
   }
-  .navbar-nav>li.open>a,
-  .navbar-nav>.open>a,
-  .navbar-nav>.open>a:hover,
-  .navbar-inverse .navbar-nav>.open>a:focus {
-      background: @purple !important;
-      color: @orange !important;
+  .navbar-nav > li.open > a,
+  .navbar-nav > .open > a,
+  .navbar-nav > .open > a:hover,
+  .navbar-inverse .navbar-nav > .open > a:focus {
+	background : @purple !important;
+	color      : @orange !important;
   }
 }

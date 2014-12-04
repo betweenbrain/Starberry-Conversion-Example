@@ -91,8 +91,8 @@
 }
 body {
   background: #ffffff;
-  font-size: 18px;
-  line-height: 24px;
+  font-size: 17.92px;
+  line-height: 23.939999999999998px;
   color: #555555;
   font-family: 'AvenirLTStd';
 }
@@ -110,7 +110,7 @@ input {
   max-width: 1105px;
 }
 .btn {
-  font-size: 18px;
+  font-size: 17.92px;
   font-weight: 500;
   border-radius: 0;
   line-height: 38px;
@@ -303,7 +303,7 @@ textarea.form-control {
 .contacts p .phone {
   font-weight: bold;
   line-height: 14px;
-  font-size: 18px;
+  font-size: 17.92px;
 }
 .contacts ul,
 .contacts li {
@@ -578,7 +578,7 @@ textarea.form-control {
   background: #f5f4f4;
 }
 .properties .item h3 {
-  font-size: 15.96px;
+  font-size: 15.959999999999999px;
   line-height: 18px;
   margin: 0;
   padding: 10px 0 7px;
@@ -588,7 +588,7 @@ textarea.form-control {
   color: #43202d;
 }
 .properties .item .price {
-  font-size: 15.96px;
+  font-size: 15.959999999999999px;
   line-height: 18px;
   padding-bottom: 4px;
   font-weight: bold;
@@ -609,7 +609,7 @@ textarea.form-control {
   max-width: 260px;
 }
 .featured-line .search h3 {
-  font-size: 18px;
+  font-size: 17.92px;
   font-weight: normal;
   text-align: center;
   color: #ffffff;
@@ -786,8 +786,8 @@ textarea.form-control {
   height: auto;
 }
 .welcome p {
-  font-size: 18px;
-  line-height: 24px;
+  font-size: 17.92px;
+  line-height: 23.939999999999998px;
   margin-right: -20px;
 }
 .welcome .play {
@@ -818,10 +818,10 @@ textarea.form-control {
 .orange-boxes .item {
   background: #f05323;
   text-align: center;
-  font-size: 18px;
+  font-size: 17.92px;
   margin-right: -8px;
   padding: 20px 0 25px;
-  line-height: 24px;
+  line-height: 23.939999999999998px;
   color: #ffffff;
 }
 .orange-boxes .item:hover {
@@ -880,8 +880,8 @@ textarea.form-control {
   font-size: 13px;
 }
 .news h4 {
-  font-size: 18px;
-  line-height: 24px;
+  font-size: 17.92px;
+  line-height: 23.939999999999998px;
   margin: 4px 0;
   padding: 0 40px 0 20px;
   font-weight: bold;
@@ -913,10 +913,10 @@ textarea.form-control {
 .orange-boxes .item {
   background: #f05323;
   text-align: center;
-  font-size: 18px;
+  font-size: 17.92px;
   margin-right: -8px;
   padding: 20px 0 25px;
-  line-height: 24px;
+  line-height: 23.939999999999998px;
   color: #ffffff;
 }
 .orange-boxes .item:hover {
@@ -1011,13 +1011,13 @@ textarea.form-control {
 .form .set h6 {
   display: inline-block;
   color: #545454;
-  font-size: 18px;
+  font-size: 17.92px;
   line-height: 40px;
   margin: 0 -3px 0 0;
 }
 .form .set label {
   color: #43202d;
-  font-size: 15.96px;
+  font-size: 15.959999999999999px;
   font-weight: bold;
   display: inline-block;
   position: relative;
@@ -1234,7 +1234,7 @@ textarea.form-control {
 .search-form h3 {
   text-align: center;
   color: #43202d;
-  font-size: 18px;
+  font-size: 17.92px;
   font-weight: normal;
   margin: 0;
   padding-bottom: 13px;
@@ -1296,7 +1296,7 @@ textarea.form-control {
 }
 .search-form .crf-s {
   height: 24px;
-  line-height: 24px;
+  line-height: 23.939999999999998px;
   margin-bottom: 0;
   display: block;
 }
@@ -1395,12 +1395,12 @@ textarea.form-control {
   margin: -15px 0 1px;
 }
 .sales-search.grid-style article h2 {
-  font-size: 15.96px;
+  font-size: 15.959999999999999px;
   line-height: 18px;
   margin-top: 0;
 }
 .sales-search.grid-style article .price {
-  font-size: 15.96px;
+  font-size: 15.959999999999999px;
   line-height: normal;
   margin-top: -7px;
   margin-bottom: 0px;
@@ -1469,7 +1469,7 @@ textarea.form-control {
 }
 .specs .count {
   color: #43202d;
-  font-size: 18px;
+  font-size: 17.92px;
   padding: 0 0 0 3px;
   font-weight: bold;
   display: inline-block;
@@ -1520,7 +1520,7 @@ textarea.form-control {
   padding-left: 20px;
   color: #7e6e74;
   box-shadow: inset 2px 0 0 #ffffff, inset 0 2px 0 0 #ffffff;
-  font-size: 18px;
+  font-size: 17.92px;
 }
 .property .nav-tabs > li.active > a,
 .property .nav-tabs > li.active > a:hover,
@@ -1736,7 +1736,7 @@ textarea.form-control {
 }
 .seo-links .nav-tabs li a {
   color: #43202d;
-  font-size: 18px;
+  font-size: 17.92px;
   border-radius: 0;
   border: 0;
   position: relative;
@@ -1794,7 +1794,7 @@ textarea.form-control {
   text-align: center;
   color: #43202d;
   line-height: 20px;
-  font-size: 18px;
+  font-size: 17.92px;
 }
 .sidebar .contacts-item p {
   margin: 0 -10px 16px;
@@ -1834,7 +1834,7 @@ textarea.form-control {
   margin: 0;
   padding: 15px 0 18px;
   text-align: center;
-  font-size: 18px;
+  font-size: 17.92px;
   font-weight: bold;
 }
 .calculator label {
@@ -1888,7 +1888,7 @@ textarea.form-control {
   float: left;
   width: 31%;
   height: 24px;
-  line-height: 24px;
+  line-height: 23.939999999999998px;
   margin-left: 3%;
 }
 .calculator .crf-s:before {
@@ -1931,7 +1931,7 @@ textarea.form-control {
 }
 .calculator .years {
   float: right;
-  line-height: 24px;
+  line-height: 23.939999999999998px;
   color: #43202d;
   font-size: 12px;
   font-weight: normal;
@@ -1982,7 +1982,7 @@ textarea.form-control {
     margin: 4px 0;
     float: right;
     color: #532939;
-    font-size: 18px;
+    font-size: 17.92px;
     padding-right: 23px;
     position: relative;
     line-height: 34px;
@@ -2208,7 +2208,7 @@ textarea.form-control {
     padding: 0;
   }
   .sidebar .contacts-item p strong {
-    font-size: 18px;
+    font-size: 17.92px;
   }
   .sidebar .contacts-item p br {
     display: none;
@@ -2249,7 +2249,7 @@ textarea.form-control {
     height: 8px;
   }
   .interest-line p a {
-    font-size: 18px;
+    font-size: 17.92px;
     color: #f05323;
     font-weight: bold;
   }
@@ -2264,7 +2264,7 @@ textarea.form-control {
   .content-box h2 {
     height: 40px;
     background-size: auto 100%;
-    font-size: 18px;
+    font-size: 17.92px;
     padding-right: 45px;
     line-height: 40px;
   }
@@ -2280,7 +2280,7 @@ textarea.form-control {
     display: none;
   }
   .form .btn {
-    font-size: 18px;
+    font-size: 17.92px;
     height: 40px;
     margin-bottom: 15px;
   }
@@ -2329,7 +2329,7 @@ textarea.form-control {
     text-align: center;
   }
   .mobile-links .search h3 {
-    font-size: 18px;
+    font-size: 17.92px;
     font-weight: normal;
     text-align: center;
     color: #fff;
@@ -2380,7 +2380,7 @@ textarea.form-control {
   .mobile-links .buttons .btn .news h3 {
     height: 40px;
     background-size: auto 100%;
-    font-size: 18px;
+    font-size: 17.92px;
     line-height: 40px;
   }
   .mobile-links .buttons .btn .news a.btn {
@@ -2405,11 +2405,11 @@ textarea.form-control {
   .mobile-links .buttons .btn .orange-boxes .item {
     background: #f05323;
     text-align: center;
-    font-size: 18px;
+    font-size: 17.92px;
     margin-right: -8px;
     padding: 20px 0 25px;
     min-height: 222px;
-    line-height: 24px;
+    line-height: 23.939999999999998px;
     color: #ffffff;
   }
   .mobile-links .buttons .btn .orange-boxes .item:hover {
@@ -2543,7 +2543,7 @@ textarea.form-control {
   .news h3 {
     height: 40px;
     background-size: auto 100%;
-    font-size: 18px;
+    font-size: 17.92px;
     line-height: 40px;
   }
   .news a.btn {
@@ -2594,7 +2594,7 @@ textarea.form-control {
     margin-bottom: 46px;
   }
   .properties h2 {
-    font-size: 18px;
+    font-size: 17.92px;
     padding-bottom: 11px;
   }
   .properties .item {
@@ -2602,11 +2602,11 @@ textarea.form-control {
   }
   .properties .item .price {
     font-size: 18.62px;
-    line-height: 24px;
+    line-height: 23.939999999999998px;
   }
   .properties .item h3 {
     font-size: 18.62px;
-    line-height: 24px;
+    line-height: 23.939999999999998px;
     padding: 5px 0;
   }
   .properties .bx-prev,
@@ -2615,8 +2615,7 @@ textarea.form-control {
     width: 12px;
     height: 21px;
     background-size: 22px 21px;
-    background-position: 100% 0
-      right: 0;
+    background-position: 100% 0 right: 0;
   }
   .properties .bx-prev {
     left: 0;
@@ -2754,7 +2753,7 @@ textarea.form-control {
     margin: 4px 0;
     float: right;
     color: #532939;
-    font-size: 18px;
+    font-size: 17.92px;
     padding-right: 23px;
     position: relative;
     line-height: 34px;
@@ -2769,12 +2768,12 @@ textarea.form-control {
     height: 8px;
   }
   .sales-search article h2 {
-    font-size: 15.96px;
+    font-size: 15.959999999999999px;
     line-height: 18px;
     padding-right: 40%;
   }
   .sales-search article .price {
-    font-size: 15.96px;
+    font-size: 15.959999999999999px;
     line-height: normal;
     margin-top: -5px;
   }
@@ -2797,7 +2796,7 @@ textarea.form-control {
   .content-box h2 {
     height: auto;
     background-size: auto 100%;
-    font-size: 18px;
+    font-size: 17.92px;
     padding-right: 0;
     line-height: 1, 770px;
     padding-top: 10px;
@@ -2881,7 +2880,7 @@ textarea.form-control {
     display: none;
   }
   .form .btn {
-    font-size: 18px;
+    font-size: 17.92px;
     height: 40px;
     margin-bottom: 15px;
   }
@@ -2981,7 +2980,7 @@ textarea.form-control {
   .news h3 {
     height: 40px;
     background-size: auto 100%;
-    font-size: 18px;
+    font-size: 17.92px;
     line-height: 40px;
   }
   .news a.btn {
@@ -3009,7 +3008,7 @@ textarea.form-control {
     margin-bottom: 46px;
   }
   .properties h2 {
-    font-size: 18px;
+    font-size: 17.92px;
     padding-bottom: 11px;
   }
   .properties .item {
@@ -3017,12 +3016,12 @@ textarea.form-control {
     padding-bottom: 30px;
   }
   .properties .item .price {
-    font-size: 15.96px;
-    line-height: 24px;
+    font-size: 15.959999999999999px;
+    line-height: 23.939999999999998px;
     padding-bottom: 2px;
   }
   .properties .item h3 {
-    font-size: 15.96px;
+    font-size: 15.959999999999999px;
     padding: 10px 0 5px;
     line-height: 18px;
   }
