@@ -1,0 +1,126 @@
+.content-box {
+  background: @greylight;
+  margin: 40px 0 100px;
+  padding: 15px 0;
+  h2 {
+    color: @purpledark;
+    font-size: 30px;
+    line-height: normal;
+    margin: 0 -5px;
+    padding: 0 59px 0 24px;
+    line-height: 66px;
+    background: url(../images/bg_title_b.png) no-repeat 100% 0;
+    display: inline-block;
+    .nexa;
+  }
+}
+
+.form {
+  max-width: 802px;
+  margin: auto;
+  padding: 35px 0;
+  text-align: center;
+  p {
+    color: @greymiddle;
+    font-size: @p;
+    padding-bottom: 20px;
+    line-height: @p-lh;
+    text-align: left;
+  }
+
+  .center {
+    max-width: 660px;
+    margin: auto;
+  }
+
+  .btn {
+    margin: 40px auto 30px;
+    display: inline-block;
+    float: none;
+  }
+
+  .col-md-13 {
+    width: 18%;
+    float: left;
+  }
+
+  .col-md-17 {
+    width: 82%;
+    float: left;
+  }
+
+  .col-md-16 {
+    float: left;
+    width: 49%;
+  }
+
+  .col-md-16:last-child {
+    width: 51%;
+  }
+
+  .full {
+    padding-top: 20px;
+  }
+
+  fieldset {
+    padding-bottom: 10px;
+    margin: 0;
+  }
+
+  fieldset > div + div {
+    padding-left: 15px;
+  }
+
+  .set {
+    background: url(../images/bg_form_d.png) no-repeat 50% 100%;
+    padding: 18px 0 38px;
+    border-top: 1px solid #d1cacc;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 44px;
+    text-align: center;
+    h6 {
+      display: inline-block;
+      color: #545454;
+      font-size: @pbig2;
+      line-height: 40px;
+      margin: 0 -3px 0 0;
+    }
+    label {
+      color: @purpledark;
+      font-size: @pbigger;
+      font-weight: bold;
+      display: inline-block;
+      position: relative;
+      cursor: pointer;
+      line-height: 40px;
+      margin: 1px 10px -1px 45px;
+      &:before {
+        margin: 0 10px 0 0;
+        position: relative;
+        top: 2px;
+        content: "";
+        display: inline-block;
+        width: 15px;
+        height: 15px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDE1IDE1IiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIj48bGluZWFyR3JhZGllbnQgaWQ9ImhhdDAiIGdyYWRpZW50VW5pdHM9Im9iamVjdEJvdW5kaW5nQm94IiB4MT0iNTAlIiB5MT0iMTAwJSIgeDI9IjUwJSIgeTI9Ii0xLjQyMTA4NTQ3MTUyMDJlLTE0JSI+CjxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiNlMGUwZTAiIHN0b3Atb3BhY2l0eT0iMSIvPgo8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZmYiIHN0b3Atb3BhY2l0eT0iMSIvPgogICA8L2xpbmVhckdyYWRpZW50PgoKPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjE1IiBoZWlnaHQ9IjE1IiBmaWxsPSJ1cmwoI2hhdDApIiAvPgo8L3N2Zz4=);
+        background-image: -moz-linear-gradient(bottom, #e0e0e0 0%, @white 100%);
+        background-image: -o-linear-gradient(bottom, #e0e0e0 0%, @white 100%);
+        background-image: -webkit-linear-gradient(bottom, #e0e0e0 0%, @white 100%);
+        background-image: linear-gradient(bottom, #e0e0e0 0%, @white 100%);
+      }
+      &.checked:after {
+        content: "";
+        position: absolute;
+        left: 4px;
+        top: 16px;
+        width: 7px;
+        height: 7px;
+        background: @orange;
+        border-radius: 50%;
+      }
+    }
+  }
+}
