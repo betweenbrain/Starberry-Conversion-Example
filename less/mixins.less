@@ -1,0 +1,23 @@
+.flag-base(@size) {
+  content      : ' ';
+  position     : absolute;
+  width        : 0;
+  height       : 0;
+  left         : auto;
+  right        : 0;
+  top          : 0;
+  border-width : @size;
+  border-style : solid;
+  z-index      : -1;
+}
+
+.flag-right(@color,@size) {
+  .flag-base(@size);
+  border-color : @color transparent @color @color;
+  right        : -@size*2;
+}
+
+.flag-down(@color,@size ) {
+  .flag-base(@size);
+  border-color : @color @color transparent @color;
+}
