@@ -322,10 +322,10 @@ textarea.form-control {
   top: 0;
   border-width: 30px;
   border-style: solid;
-  z-index: -1;
   border-color: #fab442 #fab442 transparent #fab442;
   opacity: .9;
   padding-top: 11px;
+  z-index: -1;
 }
 .ribbon.sold:before {
   content: ' ';
@@ -337,7 +337,6 @@ textarea.form-control {
   top: 0;
   border-width: 30px;
   border-style: solid;
-  z-index: -1;
   border-color: #a7164e #a7164e transparent #a7164e;
   opacity: .9;
   padding-top: 11px;
@@ -357,7 +356,6 @@ textarea.form-control {
   top: 0;
   border-width: 30px;
   border-style: solid;
-  z-index: -1;
   border-color: #f05323 #f05323 transparent #f05323;
   opacity: .9;
   padding-top: 11px;
@@ -377,7 +375,6 @@ textarea.form-control {
   top: 0;
   border-width: 30px;
   border-style: solid;
-  z-index: -1;
   border-color: #f05323 #f05323 transparent #f05323;
   opacity: .9;
   padding-top: 11px;
