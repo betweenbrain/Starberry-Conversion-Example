@@ -1,4 +1,4 @@
-.flag-base(@size) {
+.flag(@size) {
   content      : ' ';
   position     : absolute;
   width        : 0;
@@ -8,16 +8,15 @@
   top          : 0;
   border-width : @size;
   border-style : solid;
-  z-index      : -1;
 }
 
 .flag-right(@color,@size) {
-  .flag-base(@size);
+  .flag(@size);
   border-color : @color transparent @color @color;
   right        : -@size*2;
 }
 
 .flag-down(@color,@size ) {
-  .flag-base(@size);
+  .flag(@size);
   border-color : @color @color transparent @color;
 }
