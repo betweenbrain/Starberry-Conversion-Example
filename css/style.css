@@ -96,16 +96,6 @@ body {
   color: #555555;
   font-family: 'AvenirLTStd';
 }
-.navbar-fixed-top + .body,
-.search-line + .body {
-  margin-top: 190px;
-}
-@media screen and (max-width : 1000px) {
-  .navbar-fixed-top + .body,
-  .search-line + .body {
-    margin-top: 80px;
-  }
-}
 a,
 a:hover,
 a:focus {
@@ -767,9 +757,6 @@ textarea.form-control {
 .featured-line.search-line {
   background: #f05323;
   padding: 0;
-  position: absolute;
-  width: 100%;
-  z-index: 2;
 }
 .featured-line.search-line .search {
   max-width: none;
